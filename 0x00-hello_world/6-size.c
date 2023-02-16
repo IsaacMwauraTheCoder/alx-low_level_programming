@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * main - printing sizes
+ * main -printing sizes
  * Return 0
  */
 int main(void)
