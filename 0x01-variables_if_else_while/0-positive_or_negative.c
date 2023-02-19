@@ -4,9 +4,10 @@
 
 /**
  * main - determines if no is positive
- * Return: Always (success)
+ * Return: Always 0 (success)
  *
  */
+
 int main(void)
 {
 	int n;
@@ -26,3 +27,4 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
+	}
