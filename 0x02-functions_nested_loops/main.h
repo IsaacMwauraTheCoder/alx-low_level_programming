@@ -1,4 +1,5 @@
-#include <main.h>
+#ifdef MAIN_H_
+#define MAIN_H_
 
 int _putchar(char c); 
 1-alphabet.c 
@@ -13,3 +14,5 @@ void times_tablec(void);
 int add(int, int);
 void print_to_98(int n);
 void print_time_table(int n);
+
+#endif
