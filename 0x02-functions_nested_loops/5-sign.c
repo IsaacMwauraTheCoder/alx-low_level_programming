@@ -1,22 +1,27 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * print_sign - prints the sign of a number
+ * @n: the number to be checked
  *
- * Return: Always 0.
+ * Return: Always 1 for positives , -1 for negatives and else
  */
-int main(void)
-{
-    int r;
 
-    r = _isalpha('H');
-    _putchar(r + '0');
-    r = _isalpha('o');
-    _putchar(r + '0');
-    r = _isalpha(108);
-    _putchar(r + '0');
-    r = _isalpha(';');
-    _putchar(r + '0');
-    _putchar('\n');
-    return (0);
+int print_sign(int n)
+{
+    if (n > o)
+{
+	_putchar(43);
+	return (1);
+	}
+else if (n < 0)
+	{
+		_putchar(45);
+		return (-1);
+		}
+else
+{
+	_putchar(48);
+	return (0);
+	{
 }
