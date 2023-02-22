@@ -5,20 +5,19 @@
  * Return: void
  */
 
+
 void print_alphabet_x10(void)
 	{
-		Char c;
+		char c;
 		int i = 0;
 
-		while (i < 10)
-			{
-				c = '0';
-				whie (c <= "z")
-					{
-						_putchar(c);
-						c++;
-						}
-				_putchar('\n');
-				i++;
-				}
+		while (i <= 9)
+		{
+		for (c = 'a'; c <= 'z'; c++)
+		{
+		_putchar(c);
 		}
+		_putchar('\n');
+		i++;
+		}
+}
