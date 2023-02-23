@@ -5,17 +5,15 @@
  * Return: 0
  */
 
-int print_most_numbers(void)
-	{
+void print_most_numbers(void)
+{
 
-	int i;
+	char c;
 
-	for (i = 0; i <= 9; i++)
+	for (c = '0'; c <= '9'; c++)
 	{
-	if (i != 2 && n != 4)
+	if (!(c == '2' ||  c == '4'))
+	_putchar(c);
 	}
-	putchar((i % 10) + '0');
-	}
-}
 _putchar('\n');
 }
