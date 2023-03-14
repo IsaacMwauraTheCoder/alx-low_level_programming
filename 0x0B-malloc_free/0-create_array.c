@@ -3,30 +3,32 @@
 
 /**
  * create_array - create array of size size and assign char c
- * *NULL: if size is 0
+ * @size: size of array
+ * @c: character to assign
+ * NULL: if size is 0
+ * Return: pointer
  */
 
 char *create_array(unsigned int size, char c)
 	{
-		
+
 	char *str;
-		
+
 	unsigned int i;
-		
 
-		
+
 	str = malloc(sizeof(char) * size);
-		
-	if (size == 0 || str == NULL)
-		
-		return (NULL);
-		
 
-		
+	if (size == 0 || str == NULL)
+
+	return (NULL);
+
+
+
 	for (i = 0; i < size; i++)
-		
-		str[i] = c;
-		
+
+	str[i] = c;
+
 	return (str);
-		
+
 }
